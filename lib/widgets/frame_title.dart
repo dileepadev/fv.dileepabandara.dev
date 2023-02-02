@@ -1,3 +1,4 @@
+import 'package:dileepabandara_dev/theme/responsive_screen_provider.dart';
 import 'package:flutter/material.dart';
 
 class FrameTitle extends StatelessWidget {
@@ -17,8 +18,10 @@ class FrameTitle extends StatelessWidget {
             style: Theme.of(context).textTheme.displaySmall,
           ),
           Padding(
-            padding: const EdgeInsets.only(
-                left: 160.0, right: 160.0, top: 10.0, bottom: 40.0),
+            padding: ResponsiveScreenProvider.isDesktopScreen(context)
+                ? const EdgeInsets.only(
+                    left: 160.0, right: 160.0, top: 10.0, bottom: 40.0)
+                : EdgeInsets.zero,
             child: SelectableText(
               description,
               textAlign: TextAlign.center,

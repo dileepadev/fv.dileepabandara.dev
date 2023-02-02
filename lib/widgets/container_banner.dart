@@ -7,7 +7,8 @@ import 'button_rectangle.dart';
 
 class ContainerBanner {
   Widget type1(
-      {required String title1,
+      {required bool isDesktop,
+      required String title1,
       required String title2,
       required String description,
       required String image,
@@ -22,32 +23,59 @@ class ContainerBanner {
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  SelectableText(
-                    title1,
-                    style: TextStyle(
-                      fontSize:
-                          AppThemeData.darkTheme.textTheme.titleLarge!.fontSize,
-                      fontWeight: AppThemeData
-                          .darkTheme.textTheme.titleLarge!.fontWeight,
-                      color: AppThemeData.textWhite,
+              isDesktop
+                  ? Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        SelectableText(
+                          title1,
+                          style: TextStyle(
+                            fontSize: AppThemeData
+                                .darkTheme.textTheme.titleLarge!.fontSize,
+                            fontWeight: AppThemeData
+                                .darkTheme.textTheme.titleLarge!.fontWeight,
+                            color: AppThemeData.textWhite,
+                          ),
+                        ),
+                        const SizedBox(width: 4.0),
+                        SelectableText(
+                          title2,
+                          style: TextStyle(
+                            fontSize: AppThemeData
+                                .darkTheme.textTheme.titleLarge!.fontSize,
+                            fontWeight: AppThemeData
+                                .darkTheme.textTheme.titleLarge!.fontWeight,
+                            color: AppThemeData.textPrimary,
+                          ),
+                        ),
+                      ],
+                    )
+                  : Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        SelectableText(
+                          title1,
+                          style: TextStyle(
+                            fontSize: AppThemeData
+                                .darkTheme.textTheme.titleLarge!.fontSize,
+                            fontWeight: AppThemeData
+                                .darkTheme.textTheme.titleLarge!.fontWeight,
+                            color: AppThemeData.textWhite,
+                          ),
+                        ),
+                        const SizedBox(width: 4.0),
+                        SelectableText(
+                          title2,
+                          style: TextStyle(
+                            fontSize: AppThemeData
+                                .darkTheme.textTheme.titleLarge!.fontSize,
+                            fontWeight: AppThemeData
+                                .darkTheme.textTheme.titleLarge!.fontWeight,
+                            color: AppThemeData.textPrimary,
+                          ),
+                        ),
+                      ],
                     ),
-                  ),
-                  const SizedBox(width: 4.0),
-                  SelectableText(
-                    title2,
-                    style: TextStyle(
-                      fontSize:
-                          AppThemeData.darkTheme.textTheme.titleLarge!.fontSize,
-                      fontWeight: AppThemeData
-                          .darkTheme.textTheme.titleLarge!.fontWeight,
-                      color: AppThemeData.textPrimary,
-                    ),
-                  ),
-                ],
-              ),
               const SizedBox(height: 5.0),
               SelectableText(
                 description,
@@ -58,6 +86,7 @@ class ContainerBanner {
                       AppThemeData.darkTheme.textTheme.labelLarge!.fontWeight,
                   color: AppThemeData.textGreyDark,
                 ),
+                textAlign: TextAlign.center,
               ),
             ],
           ),
@@ -92,6 +121,7 @@ class ContainerBanner {
           message: url.toString(),
           child: Text(
             message,
+            textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: AppThemeData.darkTheme.textTheme.labelLarge!.fontSize,
               fontWeight:

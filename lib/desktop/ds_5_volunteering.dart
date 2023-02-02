@@ -27,34 +27,38 @@ class DS5Volunteering extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                ContainerCard().type3(
-                  image: 'flutterscope',
-                  title: DataValues.volunteeringOrg1Title,
-                  role: DataValues.volunteeringOrg1Role,
-                  years: DataValues.volunteeringOrg1Years,
-                  values: DataValues.volunteeringOrg1Vales,
-                  message: DataValues.linkedinURL.toString(),
-                  url: DataValues.linkedinURL,
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: 'flutterscope',
+                    title: DataValues.volunteeringOrg1Title,
+                    role: DataValues.volunteeringOrg1Role,
+                    years: DataValues.volunteeringOrg1Years,
+                    values: DataValues.volunteeringOrg1Vales,
+                    message: DataValues.linkedinURL.toString(),
+                    url: DataValues.linkedinURL,
+                  ),
                 ),
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-                ContainerCard().type3(
-                  image: 'mlsa',
-                  title: DataValues.volunteeringOrg2Title,
-                  role: DataValues.volunteeringOrg2Role,
-                  years: DataValues.volunteeringOrg2Years,
-                  values: DataValues.volunteeringOrg2Vales,
-                  message: DataValues.linkedinURL.toString(),
-                  url: DataValues.linkedinURL,
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: 'mlsa',
+                    title: DataValues.volunteeringOrg2Title,
+                    role: DataValues.volunteeringOrg2Role,
+                    years: DataValues.volunteeringOrg2Years,
+                    values: DataValues.volunteeringOrg2Vales,
+                    message: DataValues.linkedinURL.toString(),
+                    url: DataValues.linkedinURL,
+                  ),
                 ),
               ],
             ),
             const SizedBox(height: 80.0),
             Center(
               child: ContainerBanner().type1(
-                title1: 'Not only these, there are several places I',
+                isDesktop: true,
+                title1: 'You can find more about my',
                 title2: 'volunteering',
-                description:
-                    'Click here to visit my volunteering experience >>',
+                description: 'Click here to visit my volunteering details >>',
                 image: 'image',
                 message: 'Volunteering Profile',
                 url: DataValues.volunteeringURL,
