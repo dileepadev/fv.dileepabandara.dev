@@ -8,8 +8,8 @@ import '../widgets/container_banner.dart';
 import '../widgets/frame_title.dart';
 import '../widgets/social_profiles.dart';
 
-class DF7Contact extends StatelessWidget {
-  const DF7Contact({Key? key}) : super(key: key);
+class DS7Contact extends StatelessWidget {
+  const DS7Contact({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

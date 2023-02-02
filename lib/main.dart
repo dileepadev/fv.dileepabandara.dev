@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'theme/responsive_screen_provider.dart';
 import 'theme/app_theme.dart';
-import 'desktop/df_1_header.dart';
-import 'desktop/df_2_about_me.dart';
-import 'desktop/df_3_education.dart';
-import 'desktop/df_4_experience.dart';
-import 'desktop/df_5_volunteering.dart';
-import 'desktop/df_6_blog.dart';
-import 'desktop/df_7_contact.dart';
-import 'desktop/df_8_footer.dart';
+import 'desktop/ds_1_header.dart';
+import 'desktop/ds_2_about_me.dart';
+import 'desktop/ds_3_education.dart';
+import 'desktop/ds_4_experience.dart';
+import 'desktop/ds_5_volunteering.dart';
+import 'desktop/ds_6_blog.dart';
+import 'desktop/ds_7_contact.dart';
+import 'desktop/ds_8_footer.dart';
 import 'mobile/mobile_frame_1.dart';
 
 void main() {
@@ -79,14 +79,14 @@ class _HomePageState extends State<HomePage> {
         shrinkWrap: true,
         physics: const ClampingScrollPhysics(),
         children: const [
-          DF1Header(),
-          DF2AboutMe(),
-          DF3Education(),
-          DF4Experience(),
-          DF5Volunteering(),
-          DF7Blog(),
-          DF7Contact(),
-          DF8Footer(),
+          DS1Header(),
+          DS2AboutMe(),
+          DS3Education(),
+          DS4Experience(),
+          DS5Volunteering(),
+          DS7Blog(),
+          DS7Contact(),
+          DS8Footer(),
         ],
       );
     }

@@ -6,8 +6,8 @@ import '../theme/app_theme.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class DF7Blog extends StatelessWidget {
-  const DF7Blog({Key? key}) : super(key: key);
+class DS7Blog extends StatelessWidget {
+  const DS7Blog({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

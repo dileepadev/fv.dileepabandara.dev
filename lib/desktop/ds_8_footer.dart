@@ -4,8 +4,8 @@ import 'package:url_launcher/url_launcher.dart';
 import '../statics/data_values.dart';
 import '../theme/app_theme.dart';
 
-class DF8Footer extends StatelessWidget {
-  const DF8Footer({Key? key}) : super(key: key);
+class DS8Footer extends StatelessWidget {
+  const DS8Footer({Key? key}) : super(key: key);
 
   Widget getSourceCode(BuildContext context) {
     return MouseRegion(

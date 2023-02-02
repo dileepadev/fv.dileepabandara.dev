@@ -5,8 +5,8 @@ import '../theme/app_theme.dart';
 import '../widgets/nav_bar.dart';
 import '../widgets/social_profiles.dart';
 
-class DF1Header extends StatelessWidget {
-  const DF1Header({Key? key}) : super(key: key);
+class DS1Header extends StatelessWidget {
+  const DS1Header({Key? key}) : super(key: key);
 
   List<Widget> headerData() {
     return [

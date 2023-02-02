@@ -8,8 +8,8 @@ import '../widgets/text_pairs.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class DF2AboutMe extends StatelessWidget {
-  const DF2AboutMe({Key? key}) : super(key: key);
+class DS2AboutMe extends StatelessWidget {
+  const DS2AboutMe({Key? key}) : super(key: key);
 
   Widget bio(BuildContext context) {
     return SizedBox(
