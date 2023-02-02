@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'data_values.dart';
-import 'app_theme.dart';
+import '../statics/data_values.dart';
+import '../theme/app_theme.dart';
 
-class Footer extends StatelessWidget {
-  const Footer({Key? key}) : super(key: key);
+class DS8Footer extends StatelessWidget {
+  const DS8Footer({Key? key}) : super(key: key);
 
   Widget getSourceCode(BuildContext context) {
     return MouseRegion(
@@ -19,7 +19,7 @@ class Footer extends StatelessWidget {
           child: Text(
             'Get Source Code',
             style: TextStyle(
-              color: AppThemeData.primaryColor,
+              color: AppThemeData.textPrimary,
               fontSize: Theme.of(context).textTheme.bodyMedium!.fontSize,
               fontWeight: Theme.of(context).textTheme.bodyMedium!.fontWeight,
             ),
