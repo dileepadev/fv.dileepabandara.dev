@@ -47,8 +47,8 @@ Web Build
 ## 💙 Built With
 
 - [Flutter](https://flutter.dev)
-  - Flutter 3.3.10 • channel stable
-  - Tools • Dart 2.18.6 • DevTools 2.15.0
+    - Flutter 3.3.10 • channel stable
+    - Tools • Dart 2.18.6 • DevTools 2.15.0
 - [GitHub Pages](https://pages.github.com)
 
 ## 📌 Prerequisites
