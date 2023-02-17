@@ -1,18 +1,27 @@
-# dileepabandara.dev
+# Dileepa Bandara
 
-![GitHub repo size](https://img.shields.io/github/repo-size/dileepabandara/dileepabandara.dev?color=d62936)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dileepabandara/dileepabandara.dev?color=d4ad21)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/dileepabandara/dileepabandara.dev?color=138a3d)
-![GitHub license](https://img.shields.io/github/license/dileepabandara/dileepabandara.dev?color=eb7005)
-![GitHub language count](https://img.shields.io/github/languages/count/dileepabandara/dileepabandara.dev?color=1f77b4)
-![GitHub top language](https://img.shields.io/github/languages/top/dileepabandara/dileepabandara.dev?color=7f0c7f)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/dileepabandara/dileepabandara.dev?color=d62936&label=Repo%20Size&style=flat-square)
+![GitHub Code Size](https://img.shields.io/github/languages/code-size/dileepabandara/dileepabandara.dev?color=e6a400&label=Code%20Size&style=flat-square)
+![GitHub License](https://img.shields.io/github/license/dileepabandara/dileepabandara.dev?color=eb7005&label=License&style=flat-square)
+![Total Code Lines](https://img.shields.io/tokei/lines/github/dileepabandara/dileepabandara.dev?color=805b3c&label=Total%20Code%20Lines&style=flat-square)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/dileepabandara/dileepabandara.dev?color=138a3d&label=Commit%20Activity&style=flat-square)
+![GitHub Language Count](https://img.shields.io/github/languages/count/dileepabandara/dileepabandara.dev?color=1f77b4&label=Total%20Languages&style=flat-square)
+![GitHub Top Language](https://img.shields.io/github/languages/top/dileepabandara/dileepabandara.dev?color=7f0c7f&style=flat-square)
+![GitHub Issues](https://img.shields.io/github/issues/dileepabandara/dileepabandara.dev?color=098f76&label=GitHub%20Issues&style=flat-square)
+![GitHub Pull Erequests](https://img.shields.io/github/issues-pr/dileepabandara/dileepabandara.dev?color=2c324f&label=GitHub%20Pull%20Requests&style=flat-square)
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/dileepabandara/dileepabandara.dev?color=0c22ed&label=CodeFactor%20Grade&style=flat-square)
+![GitHub Latest Release](https://img.shields.io/github/v/release/dileepabandara/dileepabandara.dev?color=f5426f&label=Latest%20Release&style=flat-square)
+![GitHub Total Downloads](https://img.shields.io/github/downloads/dileepabandara/dileepabandara.dev/total?color=4a2600&label=Total%20Downloads&style=flat-square)
+![Website Status](https://img.shields.io/website?down_message=Down%20%26%20Offline&label=Website%20Status&up_message=Up%20%26%20Online&url=https%3A%2F%2Fdileepabandara.dev)
 
-![cover](https://user-images.githubusercontent.com/80202913/212151212-38e96130-85dc-4e0a-9931-6d1df8f5576a.png)
+**[dileepabandara.dev](https://dileepabandara.dev)**
 
-## ✨ About
-
-Hello there, I'm Dileepa Bandara. This is my personal website, which contains public information
+✨ Hello there, I'm Dileepa Bandara. This is my personal website, which contains public information
 that anyone can find on the internet.
+
+## 🎬 Captured Moment
+
+![cover](https://user-images.githubusercontent.com/80202913/219706180-be4b9775-ca3f-48c1-9b8d-e8957024c639.gif)
 
 ## 🌐 Website
 
@@ -22,9 +31,9 @@ that anyone can find on the internet.
 
 ## 🎉 Release Status
 
-Version - v1.0.0  
-Initial release date - January 13, 2023  
-[View Releases](https://github.com/dileepabandara/dileepabandara.dev/releases)
+Version - v1.1.0  
+Initial release date - February 17, 2023  
+[View all releases](https://github.com/dileepabandara/dileepabandara.dev/releases)
 
 ## 🍃 Branches
 
@@ -41,14 +50,12 @@ Web Build
 
 - [web-build](https://github.com/dileepabandara/dileepabandara.dev/tree/web-build) - Stable and
   latest version of the web build
-- [web-build-1.0.0](https://github.com/dileepabandara/dileepabandara.dev/tree/web-build-1.0.0) -
-  Stable 1.0.0 version of the web build
 
 ## 💙 Built With
 
 - [Flutter](https://flutter.dev)
-    - Flutter 3.3.10 • channel stable
-    - Tools • Dart 2.18.6 • DevTools 2.15.0
+  - Flutter 3.7.3 • channel stable
+  - Tools • Dart 2.19.2 • DevTools 2.20.1
 - [GitHub Pages](https://pages.github.com)
 
 ## 📌 Prerequisites
@@ -78,7 +85,7 @@ Web Build
   server.
 - Set up and run the index.html file.
 
-## 📸 Icons and Images
+## 🖼️ Icons and Images
 
 - [Icons8](https://icons8.com)
 
