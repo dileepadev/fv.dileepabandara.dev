@@ -46,10 +46,10 @@ class MS5Volunteering extends StatelessWidget {
             const SizedBox(height: 40.0),
             Center(
               child: ContainerBanner().type1(
-                isDesktop: false,
-                title1: 'You can find more about my',
-                title2: 'volunteering',
-                description: 'Click here to visit my volunteering details >>',
+                isDesktop: true,
+                title1: DataValues.volunteeringBanner,
+                title2: DataValues.volunteeringBannerTitle,
+                description: DataValues.volunteeringBannerWeb,
                 image: 'image',
                 message: 'Volunteering Profile',
                 url: DataValues.volunteeringURL,

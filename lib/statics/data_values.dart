@@ -1,22 +1,29 @@
 class DataValues {
+  // About App
+  static const String appName = 'Dileepa Bandara';
+  static const String appNameLong = 'dileepabandara.dev';
+  static const String appDescription =
+      'Hello there, I\'m Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.';
+  static const String appDeveloper = 'Dileepa Bandara';
+  static const String appPackage = 'dev.dileepabandara.dileepabandara_dev';
+  static const String appVersion = '1.1.1';
+  static const String appBuildNumber = '1';
+
   // External links
   static Uri devURL = Uri.parse('https://dileepabandara.dev');
   static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
   static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
-  static Uri linkedinURL =
-      Uri.parse('https://www.linkedin.com/in/dileepabandara');
+  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
   static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
-  static Uri youtubeURL = Uri.parse('https://www.youtube.com/@flutterscope');
+  static Uri youtubeURL = Uri.parse('https://youtube.com/@flutterscope');
   static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
-  static Uri facebookURL =
-      Uri.parse('https://www.facebook.com/0dileepabandara');
-  static Uri instagramURL =
-      Uri.parse('https://www.instagram.com/_dileepabandara');
+  static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
+  static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
   static Uri repoURL =
       Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
   static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev');
   static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
-  static Uri techstackURL = Uri.parse('https://techstack.dileepabandara.dev');
+  static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
   static Uri volunteeringURL =
       Uri.parse('https://volunteer.dileepabandara.dev');
   static Uri techdiaryURL = Uri.parse('https://techdiary.dileepabandara.dev');
@@ -131,10 +138,10 @@ class DataValues {
   static const String experienceOrg2Years = 'May 2021 - November 2021';
   static const String experienceOrg2Vales =
       'Android, Flutter, Dart, Firebase, Git, REST API, JSON Parsing & UI UX Designing.';
-  static const String experienceBanner = 'You can view my working';
-  static const String experienceBannerTitle = 'tech stack';
+  static const String experienceBanner = 'Find my working';
+  static const String experienceBannerTitle = 'toolkit';
   static const String experienceBannerWeb =
-      'Visit techstack.dileepabandara.dev for more details >>';
+      'Visit toolkit.dileepabandara.dev for more details >>';
 
   // Volunteering
   static const String volunteeringTitle = 'Volunteering';
@@ -151,6 +158,10 @@ class DataValues {
   static const String volunteeringOrg2Years = 'October 2022 - Present';
   static const String volunteeringOrg2Vales =
       'Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future.';
+  static const String volunteeringBanner = 'Find more about my';
+  static const String volunteeringBannerTitle = 'volunteering';
+  static const String volunteeringBannerWeb =
+      'Visit volunteer.dileepabandara.dev for more details >>';
 
   // Blog
   static const String blogTitle = 'Blog';

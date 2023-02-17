@@ -56,9 +56,9 @@ class DS5Volunteering extends StatelessWidget {
             Center(
               child: ContainerBanner().type1(
                 isDesktop: true,
-                title1: 'You can find more about my',
-                title2: 'volunteering',
-                description: 'Click here to visit my volunteering details >>',
+                title1: DataValues.volunteeringBanner,
+                title2: DataValues.volunteeringBannerTitle,
+                description: DataValues.volunteeringBannerWeb,
                 image: 'image',
                 message: 'Volunteering Profile',
                 url: DataValues.volunteeringURL,
