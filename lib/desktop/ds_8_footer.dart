@@ -1,76 +1,71 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../statics/data_values.dart';
+import '../statics/key_holders.dart';
 import '../theme/app_theme.dart';
+import '../widgets/container_banner.dart';
+import '../widgets/container_card.dart';
+import '../widgets/frame_title.dart';
 
-class DS8Footer extends StatelessWidget {
-  const DS8Footer({Key? key}) : super(key: key);
-
-  Widget getSourceCode(BuildContext context) {
-    return MouseRegion(
-      cursor: SystemMouseCursors.click,
-      child: GestureDetector(
-        onTap: () {
-          launchUrl(DataValues.repoURL);
-        },
-        child: Tooltip(
-          message: DataValues.repoURL.toString(),
-          child: Text(
-            'Get Source Code',
-            style: TextStyle(
-              color: AppThemeData.textPrimary,
-              fontSize: Theme.of(context).textTheme.bodyMedium!.fontSize,
-              fontWeight: Theme.of(context).textTheme.bodyMedium!.fontWeight,
-            ),
-          ),
-        ),
-      ),
-    );
-  }
+class DS5Volunteering extends StatelessWidget {
+  const DS5Volunteering({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
-      color: AppThemeData.backgroundBlack,
-      child: Column(
-        children: [
-          const SizedBox(
-            height: 40,
-          ),
-          SelectableText(
-            '${DataValues.appName} (v${DataValues.appVersion})',
-            style: Theme.of(context).textTheme.bodyMedium,
-          ),
-          const SizedBox(
-            height: 10,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              SelectableText(
-                DataValues.builtWith,
-                style: Theme.of(context).textTheme.bodyMedium,
+      key: KeyHolders.volunteeringKey,
+      color: AppThemeData.backgroundGrey,
+      child: Padding(
+        padding: const EdgeInsets.all(40.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const FrameTitle(
+                title: DataValues.volunteeringTitle,
+                description: DataValues.volunteeringDescription),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: 'flutterscope',
+                    title: DataValues.volunteeringOrg1Title,
+                    role: DataValues.volunteeringOrg1Role,
+                    years: DataValues.volunteeringOrg1Years,
+                    values: DataValues.volunteeringOrg1Vales,
+                    message: DataValues.linkedinURL.toString(),
+                    url: DataValues.linkedinURL,
+                  ),
+                ),
+                SizedBox(width: MediaQuery.of(context).size.width * 0.05),
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: 'mlsa',
+                    title: DataValues.volunteeringOrg2Title,
+                    role: DataValues.volunteeringOrg2Role,
+                    years: DataValues.volunteeringOrg2Years,
+                    values: DataValues.volunteeringOrg2Vales,
+                    message: DataValues.linkedinURL.toString(),
+                    url: DataValues.linkedinURL,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 80.0),
+            Center(
+              child: ContainerBanner().type1(
+                isDesktop: true,
+                title1: DataValues.volunteeringBanner,
+                title2: DataValues.volunteeringBannerTitle,
+                description: DataValues.volunteeringBannerWeb,
+                image: 'image',
+                message: 'Volunteering Profile',
+                url: DataValues.volunteeringURL,
               ),
-              const SizedBox(
-                width: 5,
-              ),
-              getSourceCode(context),
-            ],
-          ),
-          const SizedBox(
-            height: 10,
-          ),
-          SelectableText(
-            DataValues.copyright,
-            style: Theme.of(context).textTheme.bodyMedium,
-          ),
-          const SizedBox(
-            height: 40,
-          ),
-        ],
+            ),
+          ],
+        ),
       ),
     );
   }
