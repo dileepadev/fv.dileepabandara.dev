@@ -31,7 +31,7 @@ that anyone can find on the internet.
 
 ## 🎉 Release Status
 
-Version - v1.1.0  
+Version - v1.1.1  
 Initial release date - February 17, 2023  
 [View all releases](https://github.com/dileepabandara/dileepabandara.dev/releases)
 
