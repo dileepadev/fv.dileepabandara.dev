@@ -147,22 +147,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-// TODO: Fix repetitive code snippets
-// TODO: Update common widgets
-// TODO: Use variables to handle Strings
-// TODO: Add button hover effect
-// TODO: Check the performance
-// TODO: Check the code quality
-// TODO: Check the code coverage
-// TODO: Check the code complexity
-// TODO: Check the code duplication
-// TODO: Check the code maintainability
-// TODO: Check the code testability
-// TODO: Check the code test coverage
-// TODO: Check the user experience
-// TODO: Update the README.md
-// TODO: Generate the documentation
-// TODO: Create the CHANGELOG.md
-// TODO: Create the community guidelines
-// TODO: Create the release

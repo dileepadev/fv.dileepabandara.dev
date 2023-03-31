@@ -6,7 +6,7 @@ class DataValues {
       'Hello there, I\'m Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.';
   static const String appDeveloper = 'Dileepa Bandara';
   static const String appPackage = 'dev.dileepabandara.dileepabandara_dev';
-  static const String appVersion = '1.1.1';
+  static const String appVersion = '1.1.2';
   static const String appBuildNumber = '1';
 
   // External links
@@ -170,13 +170,13 @@ class DataValues {
   static const String blogOrg2Title = 'Tech Diary';
   static const String blogOrg2Role =
       'Explore and keep up with the latest tech.';
-  static const String blogOrg2Years = '2023 January - Present';
+  static const String blogOrg2Years = 'Coming Soon';
   static const String blogOrg2Vales =
       'Technology is always creating a new world and a new path by becoming more advanced than other studies. Every single incident, technology produces new things for us. So, with this small diary, I intend to create logs of newly discovered things and knowledge that I\'ve discovered in the tech world.';
   static const String blogOrg1Title = 'Dileepa Bandara | Blog';
   static const String blogOrg1Role =
       'Personal thoughts as a technical student.';
-  static const String blogOrg1Years = '2023 February - Present';
+  static const String blogOrg1Years = '2023 March - Present';
   static const String blogOrg1Vales =
       'Everyone follows their own timeline as a student. If you look closely at me, you\'ll notice that I also follow my own branch timelines for my educational journey as a student. So, I started this blog to share my learning curve and experiences with others so that anyone can meet their needs by classifying subjects.';
 

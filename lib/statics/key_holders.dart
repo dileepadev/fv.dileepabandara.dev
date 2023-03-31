@@ -12,4 +12,5 @@ class KeyHolders {
   static final GlobalKey volunteeringKey = GlobalKey();
   static final GlobalKey blogKey = GlobalKey();
   static final GlobalKey contactKey = GlobalKey();
+  static final GlobalKey footerKey = GlobalKey();
 }

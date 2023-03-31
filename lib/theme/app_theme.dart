@@ -35,9 +35,7 @@ class AppThemeData {
   // Dark Theme
   static final ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
-    colorScheme: const ColorScheme.dark(),
     primaryColor: primaryColor,
-    backgroundColor: backgroundBlack,
     scaffoldBackgroundColor: secondaryColor,
     fontFamily: 'Poppins',
     iconTheme: const IconThemeData(color: iconPrimary),
@@ -99,5 +97,6 @@ class AppThemeData {
           fontWeight: FontWeight.w500,
           color: AppThemeData.textWhite),
     ),
+    colorScheme: const ColorScheme.dark().copyWith(background: backgroundBlack),
   );
 }
