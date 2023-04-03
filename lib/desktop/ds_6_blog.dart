@@ -28,18 +28,6 @@ class DS6Blog extends StatelessWidget {
               children: [
                 Expanded(
                   child: ContainerCard().type3(
-                    image: 'techdiary',
-                    title: DataValues.blogOrg2Title,
-                    role: DataValues.blogOrg2Role,
-                    years: DataValues.blogOrg2Years,
-                    values: DataValues.blogOrg2Vales,
-                    message: DataValues.techdiaryURL.toString(),
-                    url: DataValues.techdiaryURL,
-                  ),
-                ),
-                SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-                Expanded(
-                  child: ContainerCard().type3(
                     image: 'logo',
                     title: DataValues.blogOrg1Title,
                     role: DataValues.blogOrg1Role,
@@ -47,6 +35,18 @@ class DS6Blog extends StatelessWidget {
                     values: DataValues.blogOrg1Vales,
                     message: DataValues.lateNightStudentURL.toString(),
                     url: DataValues.lateNightStudentURL,
+                  ),
+                ),
+                SizedBox(width: MediaQuery.of(context).size.width * 0.05),
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: 'techdiary',
+                    title: DataValues.blogOrg2Title,
+                    role: DataValues.blogOrg2Role,
+                    years: DataValues.blogOrg2Years,
+                    values: DataValues.blogOrg2Vales,
+                    message: DataValues.techdiaryURL.toString(),
+                    url: DataValues.techdiaryURL,
                   ),
                 ),
               ],
