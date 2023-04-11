@@ -32,6 +32,7 @@ class MS5Volunteering extends StatelessWidget {
               values: DataValues.volunteeringOrg1Vales,
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
+              isButtonEnabled: true,
             ),
             const SizedBox(height: 20.0),
             ContainerCard().type3(
@@ -42,6 +43,7 @@ class MS5Volunteering extends StatelessWidget {
               values: DataValues.volunteeringOrg2Vales,
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
+              isButtonEnabled: true,
             ),
             const SizedBox(height: 40.0),
             Center(

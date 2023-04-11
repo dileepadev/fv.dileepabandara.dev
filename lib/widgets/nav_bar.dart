@@ -12,58 +12,58 @@ class NavBar {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         ButtonTextLarge(
-          text: 'About Me',
+          text: DataValues.navBarAboutMe,
           onPressed: () => Scrollable.ensureVisible(
             KeyHolders.aboutKey.currentContext!,
             duration: const Duration(milliseconds: 1000),
           ),
-          message: 'Go to about me section',
+          message: 'Go to ${DataValues.navBarAboutMe} section',
         ),
         const SizedBox(width: 20.0),
         ButtonTextLarge(
-          text: 'Education',
+          text: DataValues.navBarEducation,
           onPressed: () => Scrollable.ensureVisible(
             KeyHolders.educationKey.currentContext!,
             duration: const Duration(milliseconds: 1000),
           ),
-          message: 'Go to education section',
+          message: 'Go to ${DataValues.navBarEducation} section',
         ),
         const SizedBox(width: 20.0),
         ButtonTextLarge(
-          text: 'Experience',
+          text: DataValues.navBarExperience,
           onPressed: () => Scrollable.ensureVisible(
             KeyHolders.experienceKey.currentContext!,
             duration: const Duration(milliseconds: 1000),
           ),
-          message: 'Go to experience section',
+          message: 'Go to ${DataValues.navBarExperience} section',
         ),
         const SizedBox(width: 20.0),
         ButtonTextLarge(
-          text: 'Volunteering',
+          text: DataValues.navBarVolunteering,
           onPressed: () => Scrollable.ensureVisible(
             KeyHolders.volunteeringKey.currentContext!,
             duration: const Duration(milliseconds: 1000),
           ),
-          message: 'Go to volunteering section',
+          message: 'Go to ${DataValues.navBarVolunteering} section',
         ),
         const SizedBox(width: 20.0),
         ButtonTextLarge(
-          text: 'Blog',
+          text: DataValues.navBarTechNotes,
           onPressed: () => Scrollable.ensureVisible(
-            KeyHolders.blogKey.currentContext!,
+            KeyHolders.technotesKey.currentContext!,
             duration: const Duration(milliseconds: 1000),
           ),
-          message: 'Go to blog section',
+          message: 'Go to ${DataValues.navBarTechNotes} section',
         ),
         const SizedBox(width: 20.0),
         ButtonRectangle(
-            name: "Contact Me",
+            name: DataValues.navBarContactMe,
             onPressed: () => Scrollable.ensureVisible(
                   KeyHolders.contactKey.currentContext!,
                   duration: const Duration(milliseconds: 1000),
                 ),
             color: AppThemeData.buttonPrimary,
-            message: 'Go to contact me section'),
+            message: 'Go to ${DataValues.navBarContactMe} section'),
       ],
     );
   }
@@ -99,58 +99,58 @@ class NavBar {
           miniHeader(),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
-            text: 'About Me',
+            text: DataValues.navBarAboutMe,
             onPressed: () => Scrollable.ensureVisible(
               KeyHolders.aboutKey.currentContext!,
               duration: const Duration(milliseconds: 1000),
             ),
-            message: 'Go to about me section',
+            message: 'Go to ${DataValues.navBarAboutMe} section',
           ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
-            text: 'Education',
+            text: DataValues.navBarEducation,
             onPressed: () => Scrollable.ensureVisible(
               KeyHolders.educationKey.currentContext!,
               duration: const Duration(milliseconds: 1000),
             ),
-            message: 'Go to education section',
+            message: 'Go to ${DataValues.navBarEducation} section',
           ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
-            text: 'Experience',
+            text: DataValues.navBarExperience,
             onPressed: () => Scrollable.ensureVisible(
               KeyHolders.experienceKey.currentContext!,
               duration: const Duration(milliseconds: 1000),
             ),
-            message: 'Go to experience section',
+            message: 'Go to ${DataValues.navBarExperience} section',
           ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
-            text: 'Volunteering',
+            text: DataValues.navBarVolunteering,
             onPressed: () => Scrollable.ensureVisible(
               KeyHolders.volunteeringKey.currentContext!,
               duration: const Duration(milliseconds: 1000),
             ),
-            message: 'Go to volunteering section',
+            message: 'Go to ${DataValues.navBarVolunteering} section',
           ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
-            text: 'Blog',
+            text: DataValues.navBarTechNotes,
             onPressed: () => Scrollable.ensureVisible(
-              KeyHolders.blogKey.currentContext!,
+              KeyHolders.technotesKey.currentContext!,
               duration: const Duration(milliseconds: 1000),
             ),
-            message: 'Go to blog section',
+            message: 'Go to ${DataValues.navBarTechNotes} section',
           ),
           const SizedBox(height: 20.0),
           ButtonRectangle(
-              name: "Contact Me",
+              name: DataValues.navBarContactMe,
               onPressed: () => Scrollable.ensureVisible(
                     KeyHolders.contactKey.currentContext!,
                     duration: const Duration(milliseconds: 1000),
                   ),
               color: AppThemeData.buttonPrimary,
-              message: 'Go to contact me section'),
+              message: 'Go to ${DataValues.navBarContactMe} section'),
         ],
       ),
     );

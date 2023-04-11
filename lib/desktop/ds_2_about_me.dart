@@ -6,6 +6,7 @@ import '../theme/app_theme.dart';
 import '../widgets/button_text.dart';
 import '../widgets/text_pairs.dart';
 import '../widgets/container_card.dart';
+import '../widgets/container_banner.dart';
 import '../widgets/frame_title.dart';
 
 class DS2AboutMe extends StatelessWidget {
@@ -27,7 +28,7 @@ class DS2AboutMe extends StatelessWidget {
                 ),
                 const SizedBox(height: 40.0),
                 ButtonTextSmall(
-                  text: 'View More >>',
+                  text: 'View Full Biography >>',
                   message: DataValues.biographyURL.toString(),
                   url: DataValues.biographyURL,
                 ),
@@ -97,15 +98,9 @@ class DS2AboutMe extends StatelessWidget {
                 ),
                 const SizedBox(height: 30.0),
                 TextPairs().type1(
-                  title: DataValues.aboutMeProfilesTitle,
-                  description: DataValues.aboutMeProfilesDescription,
+                  title: DataValues.aboutMeGoalTitle,
+                  description: DataValues.aboutMeGoalDescription,
                 ),
-                const SizedBox(height: 20.0),
-                ButtonTextSmall(
-                  text: 'View Profiles >>',
-                  message: DataValues.profilesURL.toString(),
-                  url: DataValues.profilesURL,
-                )
               ],
             ),
           ),
@@ -171,6 +166,17 @@ class DS2AboutMe extends StatelessWidget {
             bio(context),
             const SizedBox(height: 40.0),
             titles(context),
+            const SizedBox(height: 80.0),
+            Center(
+              child: ContainerBanner().type1(
+                  isDesktop: true,
+                  title1: DataValues.aboutMeBanner,
+                  title2: DataValues.aboutMeBannerTitle,
+                  description: DataValues.aboutMeBannerWeb,
+                  image: 'logo',
+                  message: 'View Profiles',
+                  url: DataValues.profilesURL),
+            ),
           ],
         ),
       ),

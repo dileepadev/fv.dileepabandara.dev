@@ -6,13 +6,13 @@ import '../theme/app_theme.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class DS6Blog extends StatelessWidget {
-  const DS6Blog({Key? key}) : super(key: key);
+class DS6TechNotes extends StatelessWidget {
+  const DS6TechNotes({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      key: KeyHolders.blogKey,
+      key: KeyHolders.technotesKey,
       color: AppThemeData.backgroundGrey,
       child: Padding(
         padding: const EdgeInsets.all(40.0),
@@ -20,8 +20,8 @@ class DS6Blog extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const FrameTitle(
-                title: DataValues.blogTitle,
-                description: DataValues.blogDescription),
+                title: DataValues.technotesTitle,
+                description: DataValues.technotesDescription),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -29,24 +29,26 @@ class DS6Blog extends StatelessWidget {
                 Expanded(
                   child: ContainerCard().type3(
                     image: 'logo',
-                    title: DataValues.blogOrg1Title,
-                    role: DataValues.blogOrg1Role,
-                    years: DataValues.blogOrg1Years,
-                    values: DataValues.blogOrg1Vales,
+                    title: DataValues.technotesOrg1Title,
+                    role: DataValues.technotesOrg1Role,
+                    years: DataValues.technotesOrg1Years,
+                    values: DataValues.technotesOrg1Vales,
                     message: DataValues.lateNightStudentURL.toString(),
                     url: DataValues.lateNightStudentURL,
+                    isButtonEnabled: true,
                   ),
                 ),
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
                 Expanded(
                   child: ContainerCard().type3(
-                    image: 'techdiary',
-                    title: DataValues.blogOrg2Title,
-                    role: DataValues.blogOrg2Role,
-                    years: DataValues.blogOrg2Years,
-                    values: DataValues.blogOrg2Vales,
-                    message: DataValues.techdiaryURL.toString(),
-                    url: DataValues.techdiaryURL,
+                    image: 'logo',
+                    title: DataValues.technotesOrg2Title,
+                    role: DataValues.technotesOrg2Role,
+                    years: DataValues.technotesOrg2Years,
+                    values: DataValues.technotesOrg2Vales,
+                    message: DataValues.technotesURL.toString(),
+                    url: DataValues.technotesURL,
+                    isButtonEnabled: false,
                   ),
                 ),
               ],
