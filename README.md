@@ -86,6 +86,10 @@ Web Build
 - [URL Launcher](https://pub.dev/packages/url_launcher): `^6.1.9`
 - [Flutter Native Splash](https://pub.dev/packages/flutter_native_splash): `^2.2.17`
 
+## 💙 Contributing
+
+If you find any issues with this branch or would like to suggest changes, feel free to submit a pull request or open an issue. Please make sure to follow the [Contributing Guidelines](https://github.com/dileepabandara/dileepabandara.dev/blob/main/CONTRIBUTING.md) before your contribution.
+
 ## ❤️ Thanks
 
 Thanks to everyone who supported.
