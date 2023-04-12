@@ -3,7 +3,7 @@ description: Hello there, I'm Dileepa Bandara. This is my personal website, whic
 
 publish_to: 'none'
 
-version: 1.1.1+2
+version: 1.1.2+0
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
