@@ -32,6 +32,7 @@ class MS4Experience extends StatelessWidget {
               values: DataValues.experienceOrg1Vales,
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
+              isButtonEnabled: true,
             ),
             const SizedBox(height: 20.0),
             ContainerCard().type3(
@@ -42,6 +43,7 @@ class MS4Experience extends StatelessWidget {
               values: DataValues.experienceOrg2Vales,
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
+              isButtonEnabled: true,
             ),
             const SizedBox(height: 40.0),
             Center(

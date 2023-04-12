@@ -147,6 +147,7 @@ class ContainerCard {
     required String values,
     required String message,
     required Uri url,
+    required bool isButtonEnabled,
   }) {
     return Container(
       decoration: BoxDecoration(
@@ -190,11 +191,16 @@ class ContainerCard {
               ],
             ),
             const SizedBox(height: 20.0),
-            ButtonTextSmall(
-              text: 'View More >>',
-              message: message,
-              url: url,
-            ),
+            isButtonEnabled
+                ? ButtonTextSmall(
+                    text: 'View More >>',
+                    message: message,
+                    url: url,
+                  )
+                : Text(
+                    'See you soon with the link :)',
+                    style: AppThemeData.darkTheme.textTheme.labelMedium,
+                  ),
           ],
         ),
       ),

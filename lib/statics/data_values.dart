@@ -26,13 +26,21 @@ class DataValues {
   static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
   static Uri volunteeringURL =
       Uri.parse('https://volunteer.dileepabandara.dev');
-  static Uri techdiaryURL = Uri.parse('https://techdiary.dileepabandara.dev');
+  static Uri technotesURL = Uri.parse('https://techdiary.dileepabandara.dev');
   static Uri lateNightStudentURL = Uri.parse('https://blog.dileepabandara.dev');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
   static const String headerName = 'Dileepa Bandara';
   static const String headerTitle = 'Student | Developer | Volunteer';
+
+  // Navigation Bar
+  static const String navBarAboutMe = 'About Me';
+  static const String navBarEducation = 'Education';
+  static const String navBarExperience = 'Experience';
+  static const String navBarVolunteering = 'Volunteering';
+  static const String navBarTechNotes = 'TechNotes';
+  static const String navBarContactMe = 'Contact Me';
 
   // About me
   static const String aboutMeTitle = 'About Me';
@@ -60,8 +68,9 @@ class DataValues {
   static const String aboutMeNationalityDescription = 'Sri Lankan';
   static const String aboutMeGenderTitle = 'Gender';
   static const String aboutMeGenderDescription = 'Male (He/Him/His)';
-  static const String aboutMeLocationTitle = 'Current Location';
-  static const String aboutMeLocationDescription = 'Kurunegala, Sri Lanka';
+  static const String aboutMeLocationTitle = 'Current Locations';
+  static const String aboutMeLocationDescription =
+      'Kurunegala, Sri Lanka\nColombo, Sri Lanka';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
   static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
       '08:00 - 18:00 (GMT+5:30)';
@@ -79,13 +88,13 @@ class DataValues {
       'Watching Movies & TV Shows\n'
       'Listening to Music & Dancing\n'
       'Content Creation';
-  static const String aboutMeProfilesTitle = 'Profiles';
-  static const String aboutMeProfilesDescription =
-      'I\'m available on these platforms.\nFeel free to connect with me.';
-  static const String aboutMeBanner = 'You Can Find My';
-  static const String aboutMeBannerTitle = 'All Public Profiles';
+  static const String aboutMeGoalTitle = 'Goal';
+  static const String aboutMeGoalDescription =
+      'To grow personally and professionally, while making a positive impact on the community.';
+  static const String aboutMeBanner = 'You can find my';
+  static const String aboutMeBannerTitle = 'public profiles';
   static const String aboutMeBannerWeb =
-      'Visit profile.dileepabandara.me to find all my public profiles.';
+      'Visit profile.dileepabandara.dev to find all my public profiles.';
 
   // Education
   static const String educationTitle = 'Education';
@@ -94,8 +103,9 @@ class DataValues {
   static const String educationOrg1Title =
       'Maliyadeva Adarsha M.V. - Sri Lanka';
   static const String educationOrg1Course1Name = 'GCE Advanced Level';
-  static const String educationOrg1Course1Grade = 'Sat for exams in 2016, 2017';
-  static const String educationOrg1Course1Year = '2016';
+  static const String educationOrg1Course1Grade =
+      'Combined Maths, Physics, and Chemistry';
+  static const String educationOrg1Course1Year = 'Attempted: 2016 & 2017';
   static const String educationOrg1Course2Name = 'GCE Ordinary Level ';
   static const String educationOrg1Course2Grade = 'Passed with 6A, 3B';
   static const String educationOrg1Course2Year = '2013';
@@ -163,23 +173,22 @@ class DataValues {
   static const String volunteeringBannerWeb =
       'Visit volunteer.dileepabandara.dev for more details >>';
 
-  // Blog
-  static const String blogTitle = 'Blog';
-  static const String blogDescription =
-      'Sometimes I create content as a hobby and enjoy expressing myself and connecting with people who share my interests. So, I find it to be a great outlet for my creativity and a way to share my ideas with others through my written words on a blog.';
-  static const String blogOrg2Title = 'Tech Diary';
-  static const String blogOrg2Role =
-      'Explore and keep up with the latest tech.';
-  static const String blogOrg2Years = 'Coming Soon';
-  static const String blogOrg2Vales =
-      'Technology is always creating a new world and a new path by becoming more advanced than other studies. Every single incident, technology produces new things for us. So, with this small diary, I intend to create logs of newly discovered things and knowledge that I\'ve discovered in the tech world.';
-  static const String blogOrg1Title = 'Dileepa Bandara | Blog';
-  static const String blogOrg1Role =
-      'Personal thoughts as a technical student.';
-  static const String blogOrg1Years = '2023 March - Present';
-  static const String blogOrg1Vales =
-      'Everyone follows their own timeline as a student. If you look closely at me, you\'ll notice that I also follow my own branch timelines for my educational journey as a student. So, I started this blog to share my learning curve and experiences with others so that anyone can meet their needs by classifying subjects.';
-
+  // TechNotes
+  static const String technotesTitle = 'TechNotes';
+  static const String technotesDescription =
+      'I love creating content as a hobby! It\'s a fantastic outlet for my creativity, and I enjoy expressing myself and connecting with people who share my interests. I have a blog where I can share my written ideas, and a vlog where my voice can be heard. It\'s a great way to connect with others and share my passion for technology and all things digital. Join me on this exciting journey of exploration and discovery in the tech world!';
+  static const String technotesOrg1Title = 'TechNotes by Dileepa | Blog';
+  static const String technotesOrg1Role =
+      'Embark on a journey of discovery and exploration.';
+  static const String technotesOrg1Years = '2023 March - Present';
+  static const String technotesOrg1Vales =
+      'Welcome to my tech blog, where I share my tech notes! As a passionate tech enthusiast, I\'m always on the lookout for the latest and most innovative advancements in the industry, and I can\'t wait to share my findings with you. In this space, we\'ll dive deep into a variety of exciting tech topics, ranging from revolutionary software solutions to groundbreaking ideas and futuristic concepts. Along the way, I\'ll share my personal experiences and provide insights on how these developments impact our world. Join me on this exciting journey of discovery and exploration in the dynamic world of technology through this blog!';
+  static const String technotesOrg2Title = 'TechNotes by Dileepa | Vlog';
+  static const String technotesOrg2Role =
+      'Exploring the frontiers of the computer world.';
+  static const String technotesOrg2Years = 'Coming Soon';
+  static const String technotesOrg2Vales =
+      'Welcome to my vlog, where we\'ll be exploring the fascinating world of technology! Technology is constantly evolving and transforming the world we live in, creating new paths and opportunities for us to explore. In this vlog, I\'ll be sharing my personal journey of discovery and exploration in the tech world, as I learn about the latest advancements and emerging trends in the industry. From cutting-edge software and innovative solutions to groundbreaking ideas and futuristic concepts, we\'ll cover it all in this vlog. So join me on this exciting journey as we discover the ever-changing world of technology together!';
   // Contact
   static const String contactTitle = 'Contact';
   static const String contactDescription =
